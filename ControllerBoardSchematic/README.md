@@ -24,4 +24,4 @@ Battery:
 Notes:
 - Make PCB in shape of controller with LCD screen in the middle, motor control switches 
 on either side of it and other switches in conveniant places.
-- 
+- Add Pull down resistor on the enable line for the Regulators to avoid start up pull ups.
