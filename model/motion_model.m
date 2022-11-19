@@ -42,6 +42,10 @@ dy = 0.0825;
 
 g = 9.81;
 
+u_dot_data = zeros(numsteps,1);
+v_dot_data = zeros(numsteps,1);
+w_dot_data = zeros(numsteps,1);
+
 x_data = zeros(numsteps,1);
 y_data = zeros(numsteps,1);
 h_data = zeros(numsteps,1);
@@ -50,10 +54,16 @@ phi_data = zeros(numsteps,1);
 theta_data = zeros(numsteps,1);
 psi_data = zeros(numsteps,1);
 
+accel1_u_dot_data = zeros(numsteps,1);
+accel1_v_dot_data = zeros(numsteps,1);
+accel1_w_dot_data = zeros(numsteps,1);
+
 simstep = 0;
 
 for time = 0:timestep:maxtime
     simstep = simstep + 1;
+    
+    % MOTION MODEL
     
     F1 = 0.247; % front right propeller (ccw)
     F2 = 0.24525; % rear left propeller (ccw)
@@ -106,14 +116,27 @@ for time = 0:timestep:maxtime
     y = y + y_dot * timestep;
     h = h + h_dot * timestep;
     
+    % SENSOR MEASURMENTS
+    accel1_u_dot = LIS2DE12(u_dot);
+    accel1_v_dot = LIS2DE12(v_dot);
+    accel1_w_dot = LIS2DE12(w_dot);
+    
     %RECORD DATA
-    x_data(simstep) = x;
-    y_data(simstep) = y;
-    h_data(simstep) = h;
+    u_dot_data(simstep) = u_dot;
+    v_dot_data(simstep) = v_dot;
+    w_dot_data(simstep) = w_dot;
     
     phi_data(simstep) = phi;
     theta_data(simstep) = theta;
     psi_data(simstep) = psi;
+    
+    x_data(simstep) = x;
+    y_data(simstep) = y;
+    h_data(simstep) = h;
+    
+    accel1_u_dot_data(simstep) = accel1_u_dot;
+    accel1_v_dot_data(simstep) = accel1_v_dot;
+    accel1_w_dot_data(simstep) = accel1_w_dot;
 end
 
 %save data to csv
@@ -127,8 +150,5 @@ grid on
 
 figure
 hold on
-plot(0:timestep:maxtime, phi_data, 'o')
-plot(0:timestep:maxtime, theta_data, 'o')
-plot(0:timestep:maxtime, psi_data, 'o')
-grid on
-legend('bank', 'attitude', 'heading')
+plot(0:timestep:maxtime, u_dot_data);
+plot(0:timestep:maxtime, accel1_u_dot_data);

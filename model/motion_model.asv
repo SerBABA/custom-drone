@@ -1,6 +1,8 @@
+clear all
+close all
 
-timestep = 0.02;
-maxtime = 20;
+timestep = 0.01;
+maxtime = 5;
 numsteps = maxtime/timestep;
 
 u = 0; % longitudinal velocity
@@ -29,6 +31,7 @@ h = 0; %altitude
 
 c_q = 0.1; %motor torque coefficient
 
+
 m = 0.1; % drone mass
 I_xx = 0.00062; %moment of inertia
 I_yy = 0.00113;
@@ -39,6 +42,10 @@ dy = 0.0825;
 
 g = 9.81;
 
+u_data = zeros(numsteps,1);
+v_data = zeros(numsteps,1);
+w_data = zeros(numsteps,1);
+
 x_data = zeros(numsteps,1);
 y_data = zeros(numsteps,1);
 h_data = zeros(numsteps,1);
@@ -47,15 +54,21 @@ phi_data = zeros(numsteps,1);
 theta_data = zeros(numsteps,1);
 psi_data = zeros(numsteps,1);
 
+accel1_u_dot_data = zeros(numsteps,1);
+accel1_v_dot_data = zeros(numsteps,1);
+accel1_w_dot_data = zeros(numsteps,1);
+
 simstep = 0;
 
 for time = 0:timestep:maxtime
     simstep = simstep + 1;
     
-    F1 = 0.2415; % front right propeller (ccw)
-    F2 = 0.24; % rear left propeller (ccw)
-    F3 = 0.24; % front left propeller (cw)
-    F4 = 0.239; % rear right propeller (cw)
+    % MOTION MODEL
+    
+    F1 = 0.247; % front right propeller (ccw)
+    F2 = 0.24525; % rear left propeller (ccw)
+    F3 = 0.24525; % front left propeller (cw)
+    F4 = 0.246; % rear right propeller (cw)
     
     F_z = F1 + F2 + F3 + F4; %total normal thrust
     
@@ -99,23 +112,36 @@ for time = 0:timestep:maxtime
     h_dot = -1 * (-sin(theta)*u + sin(phi)*cos(theta)*v+cos(phi)*cos(theta)*w); %is negative to make up positive
     
     %inertial-frame positions
-    x = x + x_dot;
-    y = y + y_dot;
-    h = h + h_dot;
+    x = x + x_dot * timestep;
+    y = y + y_dot * timestep;
+    h = h + h_dot * timestep;
+    
+    % SENSOR MEASURMENTS
+    accel1_u_dot = LIS2DE12(u_dot);
+    accel1_v_dot = LIS2DE12(v_dot);
+    accel1_w_dot = LIS2DE12(w_dot);
     
     %RECORD DATA
-    x_data(simstep) = x;
-    y_data(simstep) = y;
-    h_data(simstep) = h;
+    u_dot_data(simstep) = u_dot;
+    v_dot_data(simstep) = v_dot;
+    w_dot_data(simstep) = w_dot;
     
     phi_data(simstep) = phi;
     theta_data(simstep) = theta;
     psi_data(simstep) = psi;
+    
+    x_data(simstep) = x;
+    y_data(simstep) = y;
+    h_data(simstep) = h;
+    
+    accel1_u_dot_data(simstep) = accel1_u_dot;
+    accel1_v_dot_data(simstep) = accel1_v_dot;
+    accel1_w_dot_data(simstep) = accel1_w_dot;
 end
 
 %save data to csv
 dataM = [timestep, maxtime, 0, 0, 0, 0;
-    x_data, y_data, z_data, phi_data, theta_data, psi_data];
+    x_data, y_data, h_data, phi_data, theta_data, psi_data];
 writematrix(dataM,'data.csv');
 
 figure
@@ -124,9 +150,5 @@ grid on
 
 figure
 hold on
-plot(0:timestep:maxtime, phi_data, 'o')
-plot(0:timestep:maxtime, theta_data, 'o')
-plot(0:timestep:maxtime, psi_data, 'o')
-grid on
-legend('bank', 'attitude', 'heading')
-
+plot(0:timestep:maxtime, u_data);
+plot(0:timestep:maxtime, accel1_u_data);
