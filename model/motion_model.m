@@ -1,5 +1,6 @@
 clear all
 close all
+
 timestep = 0.01;
 maxtime = 5;
 numsteps = maxtime/timestep;
@@ -29,6 +30,7 @@ y = 0; %y coordinate
 h = 0; %altitude
 
 c_q = 0.1; %motor torque coefficient
+
 
 m = 0.1; % drone mass
 I_xx = 0.00062; %moment of inertia
@@ -130,4 +132,3 @@ plot(0:timestep:maxtime, theta_data, 'o')
 plot(0:timestep:maxtime, psi_data, 'o')
 grid on
 legend('bank', 'attitude', 'heading')
-
