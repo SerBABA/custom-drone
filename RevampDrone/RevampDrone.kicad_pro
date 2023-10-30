@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "DroneRevamp.kicad_pro",
+    "filename": "RevampDrone.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -312,8 +312,18 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -324,24 +334,24 @@
   },
   "sheets": [
     [
-      "b197cc17-7ac5-409f-9705-26347f5a482b",
+      "a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9",
       ""
     ],
     [
-      "cd60092a-1d91-439d-a55b-26434dc4780f",
-      "Microcontroller"
+      "2bea257f-824d-4f4b-b31a-493082c25727",
+      "Micro"
     ],
     [
-      "2c964ca4-8801-4c94-a547-fc606af1506f",
+      "0bc43be2-7c83-4054-ab5e-b7ae25f9fc7a",
       "Radio"
     ],
     [
-      "36d7dbc6-b6af-4bac-95b7-54c84bd2b8b3",
-      "Sensors"
+      "72301d20-d4dc-4e49-a22f-3d444c581bbe",
+      "Sensor"
     ],
     [
-      "37bf618c-4148-4ee8-8976-266644a9d57f",
-      "Motors"
+      "5515ab7f-03a0-465d-b71f-0a18b532a6c5",
+      "Motor"
     ]
   ],
   "text_variables": {}

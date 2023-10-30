@@ -1,0 +1,94 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 50.8 54.61) (size 15.875 20.32) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0bc43be2-7c83-4054-ab5e-b7ae25f9fc7a)
+    (property "Sheetname" "Radio" (at 50.8 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Radio.kicad_sch" (at 50.8 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 50.8 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 90.805 78.74) (size 40.005 33.655) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2bea257f-824d-4f4b-b31a-493082c25727)
+    (property "Sheetname" "Micro" (at 90.805 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Micro.kicad_sch" (at 90.805 112.9796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 90.805 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 183.515 53.34) (size 29.21 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5515ab7f-03a0-465d-b71f-0a18b532a6c5)
+    (property "Sheetname" "Motor" (at 183.515 52.6284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Motor.kicad_sch" (at 183.515 88.2146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 183.515 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 63.5 152.4) (size 24.765 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 72301d20-d4dc-4e49-a22f-3d444c581bbe)
+    (property "Sheetname" "Sensor" (at 63.5 151.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Sensor.kicad_sch" (at 63.5 179.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 63.5 152.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

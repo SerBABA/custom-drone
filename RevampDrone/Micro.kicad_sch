@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 9b139417-dbdd-4a67-a612-f913b8436399)
+  (uuid 23072f20-be45-4a12-8f04-0abaa2cea535)
 
   (paper "A4")
 
@@ -2348,6 +2348,11 @@
     (pin "1" (uuid 6c532416-1793-4edf-8352-c3c8e32f5d20))
     (pin "2" (uuid b8bc5f4b-1df8-4a5a-9605-3466fa33577b))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "C7") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "C7") (unit 1)
@@ -2374,6 +2379,11 @@
     (pin "1" (uuid 65385cbc-6d9b-47d3-811d-bdd5410fadba))
     (pin "2" (uuid 0f3924b9-2f35-45b2-9fd8-6cd23df60bdd))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "R2") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "R2") (unit 1)
@@ -2399,6 +2409,11 @@
     )
     (pin "1" (uuid 69fa1106-c8b4-4066-a63f-b7adc2dc1d1a))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR03") (unit 1)
@@ -2424,6 +2439,11 @@
     )
     (pin "1" (uuid d090b1d0-47a8-46e7-aa61-5b90067f24bc))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR08") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR08") (unit 1)
@@ -2450,6 +2470,11 @@
     (pin "1" (uuid 793c4050-03cf-4122-a356-8e40dddf2ed1))
     (pin "2" (uuid d0027ee2-a39f-4c5f-9867-012c6d016c28))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "FB1") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "FB1") (unit 1)
@@ -2475,6 +2500,11 @@
     )
     (pin "1" (uuid de89b474-bf8d-4d57-8a08-59f6694b79b4))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR013") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR013") (unit 1)
@@ -2500,6 +2530,11 @@
     )
     (pin "1" (uuid 261fd9cb-5367-4d5c-934c-6fa833e3ecbd))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR014") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR014") (unit 1)
@@ -2526,6 +2561,11 @@
     (pin "1" (uuid 7ce3207a-a890-4903-83f6-2a7a5a00c3f8))
     (pin "2" (uuid aa85b85f-6baa-4ed3-af9e-6b983091a699))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "C4") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "C4") (unit 1)
@@ -2554,6 +2594,11 @@
     (pin "3" (uuid 7d12718d-28c6-4eb4-888e-18767d3ca110))
     (pin "4" (uuid b4847ba4-a538-4263-ae10-edec22382dbd))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "J10") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "J10") (unit 1)
@@ -2579,6 +2624,11 @@
     )
     (pin "1" (uuid 88a9a9c9-3da5-448a-a5f8-17680a4a40ee))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR021") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR021") (unit 1)
@@ -2604,6 +2654,11 @@
     )
     (pin "1" (uuid cef87a07-3dd2-489a-b1c0-cfc2efc3c693))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR07") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR07") (unit 1)
@@ -2629,6 +2684,11 @@
     )
     (pin "1" (uuid 15cfd633-ac88-4b8a-a97a-b6198e46d8f3))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR018") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR018") (unit 1)
@@ -2658,6 +2718,11 @@
     (pin "4" (uuid e2e60d3f-be0b-4984-8fab-44e661e630d4))
     (pin "5" (uuid 7f586d0b-1737-45d4-b1da-bfc1589f765b))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "U3") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "U3") (unit 1)
@@ -2686,6 +2751,11 @@
     (pin "3" (uuid 3eb6ed62-1a98-4378-b5e5-f646f9e3ec79))
     (pin "4" (uuid fce7bea3-73e2-45b4-8246-fd7588e7576e))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "J7") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "J7") (unit 1)
@@ -2711,6 +2781,11 @@
     )
     (pin "1" (uuid f7f09f45-f4f9-4d63-922f-ce7b4b0b4954))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR09") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR09") (unit 1)
@@ -2739,6 +2814,11 @@
     (pin "3" (uuid 808d5ab0-8bc3-41f1-8e76-11786400773f))
     (pin "4" (uuid e4849481-f494-480e-9378-fc7617907e03))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "J8") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "J8") (unit 1)
@@ -2779,6 +2859,11 @@
     (pin "8" (uuid a2a8c75e-abd7-4124-a106-61f016650634))
     (pin "9" (uuid cc992408-4662-4e77-ad15-b71da4757e52))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "U8") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "U8") (unit 1)
@@ -2804,6 +2889,11 @@
     )
     (pin "1" (uuid 1a1fed25-2d66-4bf1-b92c-2dcf51b507ec))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR024") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR024") (unit 1)
@@ -2833,6 +2923,11 @@
     (pin "4" (uuid 6e326814-a12d-46f9-84b6-5f5936f861c6))
     (pin "5" (uuid 2e23cb78-9f92-4a87-863a-630fcfc09acc))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "U2") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "U2") (unit 1)
@@ -2859,6 +2954,11 @@
     (pin "1" (uuid e99b7da7-457f-4c5b-b63b-da715428928d))
     (pin "2" (uuid 06bba87c-04b6-41c4-be49-a1297b15e2af))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "SW1") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "SW1") (unit 1)
@@ -2884,6 +2984,11 @@
     )
     (pin "1" (uuid 209f4caf-27bc-4617-a8f5-b2f631927901))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR02") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR02") (unit 1)
@@ -2920,6 +3025,11 @@
     (pin "2" (uuid 5416713f-dd8b-4fc4-a904-25160bd2ecc1))
     (pin "3" (uuid 6a396ea5-0561-43e0-abd6-98cb39391a2f))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "Q1") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "Q1") (unit 1)
@@ -2945,6 +3055,11 @@
     )
     (pin "1" (uuid 8df79aae-65cc-4d97-a5b5-fbde6ea8190d))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR011") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR011") (unit 1)
@@ -2971,6 +3086,11 @@
     (pin "1" (uuid 72eaf1e0-54d0-43a2-91f8-5df0eb42630f))
     (pin "2" (uuid 4b93a8cb-3aa3-49a3-bcb2-23ef84ccddfc))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "C8") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "C8") (unit 1)
@@ -2997,6 +3117,11 @@
     (pin "1" (uuid 7ecece37-2de5-4e3e-99ff-eb140a5b1704))
     (pin "2" (uuid cb803c0b-8ad9-4760-82ce-696609ccad50))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "C3") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "C3") (unit 1)
@@ -3023,6 +3148,11 @@
     (pin "1" (uuid 796087b4-86a5-4a8c-9394-72046f77cb9c))
     (pin "2" (uuid 93a82cbe-594d-488a-bfa5-d6442685d233))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "F1") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "F1") (unit 1)
@@ -3049,6 +3179,11 @@
     (pin "1" (uuid b528ffe2-0530-462e-9f99-2d948653bc8d))
     (pin "2" (uuid aa10a80b-f94c-4f1a-b214-f0c688278823))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "R1") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "R1") (unit 1)
@@ -3079,6 +3214,11 @@
     (pin "5" (uuid c5473a83-36c2-4d8b-b733-77081fdda2a6))
     (pin "6" (uuid c3a1d326-ea64-444f-a4a8-2d9a077be194))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "U6") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "U6") (unit 1)
@@ -3104,6 +3244,11 @@
     )
     (pin "1" (uuid 12f59ea9-80b6-4e63-b8c1-7397052f871d))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR016") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR016") (unit 1)
@@ -3129,6 +3274,11 @@
     )
     (pin "1" (uuid 70c0f725-035a-42ca-ba10-d537a9f0ab39))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR017") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR017") (unit 1)
@@ -3159,6 +3309,11 @@
     (pin "5" (uuid b2a28e06-5200-473b-870a-e864499f685d))
     (pin "6" (uuid 923569b7-d73a-47cc-ae3f-f6da37b5f4d3))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "U11") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "U11") (unit 1)
@@ -3185,6 +3340,11 @@
     (pin "1" (uuid d577303c-70e5-4207-8591-7e591443b020))
     (pin "2" (uuid b4b2af5f-c9d2-4e71-b862-d409d78e6fe9))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "D1") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "D1") (unit 1)
@@ -3211,6 +3371,11 @@
     (pin "1" (uuid 8003003e-78be-4ce7-af18-aed03206e4b7))
     (pin "2" (uuid 7cd544bc-4033-4a67-b914-024e2a4b1706))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "C2") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "C2") (unit 1)
@@ -3236,6 +3401,11 @@
     )
     (pin "1" (uuid 77088f00-088b-4459-8e59-4c7928b3bcf9))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR022") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR022") (unit 1)
@@ -3261,6 +3431,11 @@
     )
     (pin "1" (uuid 16937029-efe9-4705-a31e-a3288291daad))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR04") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR04") (unit 1)
@@ -3286,6 +3461,11 @@
     )
     (pin "1" (uuid cfbf670d-c6c6-4dad-b3ec-22399321a5fb))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR023") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR023") (unit 1)
@@ -3311,6 +3491,11 @@
     )
     (pin "1" (uuid e8f64887-ceb4-4d74-af88-3deae8de834a))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR010") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR010") (unit 1)
@@ -3337,6 +3522,11 @@
     (pin "1" (uuid 511dc153-2662-4b6c-8b9a-b92868e93f05))
     (pin "2" (uuid 35478542-28f8-4bc7-ba15-2228e388b075))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "J1") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "J1") (unit 1)
@@ -3362,6 +3552,11 @@
     )
     (pin "1" (uuid a3e7ae7f-f59d-470c-b6f1-88c9d26d3885))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR012") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR012") (unit 1)
@@ -3388,6 +3583,11 @@
     (pin "1" (uuid 3d4ca50d-ec33-4a26-bf53-66196339fb28))
     (pin "2" (uuid 00fa7d84-98e0-4358-bd94-32b14bd50cab))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "C6") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "C6") (unit 1)
@@ -3413,6 +3613,11 @@
     )
     (pin "1" (uuid d8af373b-63cf-4002-a65a-8302878cd7e5))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR015") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR015") (unit 1)
@@ -3439,6 +3644,11 @@
     (pin "1" (uuid 256d8b53-e70d-4e6c-aa69-7a224abdd954))
     (pin "2" (uuid ccb41039-fb7c-4574-b1f8-a2985f8c35cd))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "C5") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "C5") (unit 1)
@@ -3464,6 +3674,11 @@
     )
     (pin "1" (uuid 29d6ab28-c9bf-409c-a941-4e3ecc26a132))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR06") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR06") (unit 1)
@@ -3489,6 +3704,11 @@
     )
     (pin "1" (uuid 42bb92c0-f3e4-449a-846d-708849f0336c))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR01") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR01") (unit 1)
@@ -3517,6 +3737,11 @@
     (pin "3" (uuid 33053948-21ad-4685-b5a8-6176d811fd2c))
     (pin "4" (uuid 26e1d84f-203f-4a05-bb88-d6b938c6560a))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "J2") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "J2") (unit 1)
@@ -3542,6 +3767,11 @@
     )
     (pin "1" (uuid 2db3e8b7-d346-4836-afef-aef500baaf82))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR019") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR019") (unit 1)
@@ -3630,6 +3860,11 @@
     (pin "8" (uuid 0460e6d7-33e0-4803-aaa4-4b3d98db2871))
     (pin "9" (uuid fbd04bea-8c43-4fab-ac0a-d8e1c3987e14))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "U1") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "U1") (unit 1)
@@ -3655,6 +3890,11 @@
     )
     (pin "1" (uuid f1e22e3b-ec40-4fb3-abf1-7e0b531318c6))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "#PWR05") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "#PWR05") (unit 1)
@@ -3681,6 +3921,11 @@
     (pin "1" (uuid 8771755b-dc64-40c1-8470-73f18168733b))
     (pin "2" (uuid f4fd9001-9e5e-49da-9bb5-a6bedc8df74d))
     (instances
+      (project "RevampDrone"
+        (path "/a57dd8a7-b3ae-4be1-9fc6-9c9c7e0e2ba9/2bea257f-824d-4f4b-b31a-493082c25727"
+          (reference "C1") (unit 1)
+        )
+      )
       (project "DroneRevamp"
         (path "/b197cc17-7ac5-409f-9705-26347f5a482b/cd60092a-1d91-439d-a55b-26434dc4780f"
           (reference "C1") (unit 1)
